@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+	background-color: #211f1d;
+}
+
+#game {
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 500px;
+
+    border: 1px solid #555;
+
+    background-color: #2a2a2a;
+
+    overflow: auto;
+}
+
+#game div {
+    margin: auto;
+    width: 380px;
+
+    clear: both;
+}
+
+#game button {
+    float: left;
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+
+    font-weight: bold;
+}
+
+#gameActionDisplay{
+    padding: 35px;
+
+    color: #fff;
+}
+
+#game a {
+    margin: auto;
+
+    color: red;
+    text-decoration: none;
+}
+
+.message {
+    text-align: center;
+}
